@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = DisplayOP
+PROJECT_NAME = Phonebook
 
 # Output directory
 BUILD = build
