@@ -6,6 +6,6 @@
 #include <stdio_ext.h>
 
 
-void printop(int a);
+int printop(int a);
 
 #endif  
