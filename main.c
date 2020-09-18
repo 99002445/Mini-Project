@@ -1,4 +1,4 @@
-#include"nira.h"
+#include<nira.h>
 
 struct person
 {
