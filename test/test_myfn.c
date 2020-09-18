@@ -6,7 +6,7 @@
 #define PROJECT_NAME    "DisplayOP"
 
 /* Prototypes for all the test functions */
-void printop(int a);
+void printop(void);
 
 /* Start of the application test */
 int main() {
@@ -20,7 +20,7 @@ int main() {
   
   /* Add your test functions in this format for testing*/
 
-  CU_add_test(suite, "printop",printop);
+  CU_add_test(suite, "printop",test_printop);
 
 
 /* Note: Do not edit START*/
