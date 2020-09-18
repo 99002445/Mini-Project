@@ -5,7 +5,7 @@
 #include<conio.h>
 #include<string.h>
 #include<stdlib.h>
-#include<windows.h>
+//#include<windows.h>
 
 void menu();
 void got();
