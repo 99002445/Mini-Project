@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <myfn.h>
+#include <nira.h>
 #define PROJECT_NAME    "DisplayOP"
 
 /* Prototypes for all the test functions */
