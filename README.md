@@ -1,2 +1,2 @@
 # demo
-![C/C++ CI](https://github.com/99002445/demo/workflows/C/C++%20CI/badge.svg)
+![C/C++ CI](https://github.com/99002445/Mini-Project/workflows/C/C++%20CI/badge.svg)
