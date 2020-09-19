@@ -6,11 +6,11 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/myfn.c\
+src/nira.c\
 
 # All test source files
-TEST_SRC = src/myfn.c\
-test/test_myfn.c
+TEST_SRC = src/nira.c\
+test/test_nira.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
