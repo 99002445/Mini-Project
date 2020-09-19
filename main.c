@@ -5,12 +5,12 @@
 //main function
 int main()
 {
-  float n1, n2;
+  float number1, number2;
   int ch;
 
   do{
     printf("Enter two numbers: ");
-    scanf("%f %f", &n1, &n2);
+    scanf("%f %f", &number1, &number2);
 
     printf("\n*****************");
     printf("\n1.Addition");
@@ -25,22 +25,22 @@ int main()
 
     switch (ch) {
       case 1:
-        add(n1,n2);
+        add(number1,number2);
         break;
       case 2:
-        subtract(n1,n2);
+        subtract(number1,number2);
         break;
       case 3:
-        multiply(n1,n2);
+        multiply(number1,number2);
         break;
       case 4:
-        divide(n1,n2);
+        divide(number1,number2);
         break;
       case 5:
-        rem(n1,n2);
+        rem(number1,number2);
         break;
       case 6:
-        power(n1,n2);
+        power(number1,number2);
         break;
       case 7:
         printf("Thank You.");
@@ -50,7 +50,7 @@ int main()
         printf("Please enter correct input.");
     }
 
-    printf("\n**********************************\n");
+    
   }while(1);
 
   return 0;
