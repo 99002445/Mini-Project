@@ -5,11 +5,11 @@
 #include<stdlib.h>
 
 //function declarations
-void display(float n1, float n2, char ch, float result);
-void add(float n1, float n2);
-void subtract(float n1, float n2);
-void multiply(float n1, float n2);
-void divide(float n1, float n2);
-void rem(float n1, float n2);
-void power(float n1, float n2);
+void display(float number1, float number2, char ch, float result);
+void add(float number1, float number2);
+void subtract(float number1, float number2);
+void multiply(float number1, float number2);
+void divide(float number1, float number2);
+void rem(float number1, float number2);
+void power(float number1, float number2);
 #endif 
