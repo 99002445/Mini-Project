@@ -6,7 +6,13 @@
 #define PROJECT_NAME    "DisplayOP"
 
 /* Prototypes for all the test functions */
-void printop(void);
+void test_display(void);
+void test_add(void);
+void test_subtract(void);
+void test_multiply(void);
+void test_divide(void);
+void test_rem(void);
+void test_power(void);
 
 /* Start of the application test */
 int main() {
@@ -20,7 +26,14 @@ int main() {
   
   /* Add your test functions in this format for testing*/
 
-  CU_add_test(suite, "printop",test_printop);
+  CU_add_test(suite, "display",test_display);
+  CU_add_test(suite, "add",test_add);
+  CU_add_test(suite, "subtract",test_subtract);
+  CU_add_test(suite, "multiply",test_multiply);
+  CU_add_test(suite, "divide",test_divide);
+  CU_add_test(suite, "rem",test_rem);
+  CU_add_test(suite, "power",test_power);
+	
 
 
 /* Note: Do not edit START*/
@@ -38,7 +51,30 @@ int main() {
 
 /* Write all the test functions */ 
 
-void test_printop(void)
+void test_add(void)
 {
-	CU_ASSERT(1==printop(1));
+	CU_ASSERT(300==add(155,145));
+	CU_ASSERT(400==add(155,25));
+	
+}
+void test_subtract(void){
+        CU_ASSERT(10==subtract(155,145));
+	CU_ASSERT(400==subtract(155,25));
+}
+void test_multiply(void){
+        CU_ASSERT(100==multiply(10,10));
+	CU_ASSERT(200==multiply(155,25));
+}
+void test_divide(void){
+	 CU_ASSERT(2==divide(10,5));
+	CU_ASSERT(200==divide(155,25));
+}
+void test_rem(void){
+	CU_ASSERT(0==divide(5,10));
+	CU_ASSERT(11==divide(100,200));
+}
+
+void test_power(void){
+        CU_ASSERT(4==power(2,2));
+        CU_ASSERT(15==power(6,6));
 }
