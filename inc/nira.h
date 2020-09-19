@@ -2,19 +2,14 @@
 #define __NIRA_H__
 
 #include<stdio.h>
-#include<conio.h>
-#include<string.h>
 #include<stdlib.h>
-//#include<windows.h>
 
-void menu();
-void got();
-void start();
-void back();
-void addrecord();
-void listrecord();
-void modifyrecord();
-void deleterecord();
-void searchrecord();
-
-#endif
+//function declarations
+void display(float n1, float n2, char ch, float result);
+void add(float n1, float n2);
+void subtract(float n1, float n2);
+void multiply(float n1, float n2);
+void divide(float n1, float n2);
+void rem(float n1, float n2);
+void power(float n1, float n2);
+#endif 
